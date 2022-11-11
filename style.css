@@ -17,7 +17,10 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-
+.text-presentation{
+    font-size: 20px;
+    padding-bottom: 1em;
+}
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -26,7 +29,9 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
-
+.text-description-size{
+    font-size: 14px;
+}
 .bloc {
     width: 100%;
     clear: both;
@@ -676,9 +681,7 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
-}
+
 
 .tight-width-whitespace {
     max-width: 600px;
