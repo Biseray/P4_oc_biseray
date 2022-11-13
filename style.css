@@ -17,6 +17,9 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+.text-size{
+    font-size: 25px;
+}
 .text-presentation{
     font-size: 20px;
     padding-bottom: 1em;
@@ -137,7 +140,7 @@ a:hover {
 .d-bloc h4 a,
 .d-bloc h5 a,
 .d-bloc h6 a,
-.d-bloc p a {
+.d-bloc  a {
     color: rgba(255, 255, 255, .6);
 }
 
@@ -235,7 +238,7 @@ a:hover {
 .l-bloc h4 a,
 .l-bloc h5 a,
 .l-bloc h6 a,
-.l-bloc p a {
+.l-bloc  a {
     color: rgba(0, 0, 0, .6);
 }
 
@@ -253,7 +256,7 @@ a:hover {
 .l-bloc h4 a:hover,
 .l-bloc h5 a:hover,
 .l-bloc h6 a:hover,
-.l-bloc p a:hover {
+.l-bloc  a:hover {
     color: rgba(0, 0, 0, 1);
 }
 
@@ -443,6 +446,7 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    
 }
 
 .mg-lg {
@@ -650,7 +654,6 @@ h3,
 h4,
 h5,
 h6,
-p,
 label,
 .btn,
 a {
@@ -754,12 +757,17 @@ h4 {
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
-
+.margin-contact{
+    margin-left: 5em;
+    margin-right: 5em;
+}
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #49402cd5;
     padding: 40px 40px 40px 40px;
 }
-
+.black {
+    color: #0f0f0f;
+}
 .bold-link {
     font-weight: 900;
     text-decoration: underline!important;
@@ -779,11 +787,12 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color:#0F0F0F!important;
 }
 
 .btn-atomic-tangerine:hover {
