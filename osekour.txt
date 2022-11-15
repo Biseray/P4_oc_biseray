@@ -16,3 +16,9 @@ texte iconnu
 
 
 alt du logo mal renseigner "agence de web design a paris"
+
+
+
+dans le code css"  / "
+
+id="bloc-4-portfolio 
