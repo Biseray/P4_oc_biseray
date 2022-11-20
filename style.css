@@ -411,6 +411,7 @@ a:hover {
         float: none;
         margin: 10px auto 0;
     }
+   
 }
 
 .nav > li > .dropdown a {
@@ -444,7 +445,15 @@ nav .caret {
     margin: 6px -5px 0 0!important;
     float: right;
 }
+.text-description-size{
+    font-size: 12px;
+}
 
+.paragraphe-size{
+    font-size: 16px;
+    margin-left: 15px ;
+    margin-right: 15px ;
+}
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
@@ -1050,6 +1059,23 @@ h4 {
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
+        text-align: center;
+    }
+    .text-description-size{
+        font-size: 12px;
+    }
+    
+    .paragraphe-size{
+        font-size: 16px;
+        
+    }
+    .text-presentation{
+        font-size: 16px;
+        
+    }
+    .marginText{
+        margin-left:10px ;
+        margin-right: 10px;
         text-align: center;
     }
 }
