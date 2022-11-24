@@ -1,4 +1,4 @@
-body {
+ body {
     margin: 0;
     padding: 0;
     background: #FFF;
@@ -6,14 +6,8 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-a:focus{
-    outline: 5px solid red;
-}
-a,
-button {
-    transition: all .3s ease-in-out;
-    outline: none!important;
-}
+
+
 
 a:hover {
     text-decoration: none;
@@ -342,10 +336,6 @@ a:hover {
     text-align: inherit;
 }
 
-.nav > li a:hover,
-.nav > li a:focus {
-    outline: 5px solid red;
-}
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
@@ -473,11 +463,7 @@ nav .caret {
     margin: 0 0 5px 5px;
 }
 
-.btn-d,
-.btn-d:hover,
-.btn-d:focus-visible {
-    outline: 5px solid red;
-}
+
 
 button {
     outline: none!important;
@@ -840,11 +826,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.webp");
+    background-image: url("img/agence-la-panthere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.webp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1078,4 +1064,11 @@ h4 {
         margin-right: 10px;
         text-align: center;
     }
+} 
+
+a:focus-visible,
+.btn:focus-visible{
+    transition: all .3s ease-in-out;
+    outline: 5px solid red;
+
 }
