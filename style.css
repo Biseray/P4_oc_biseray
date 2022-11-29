@@ -449,7 +449,7 @@
  }
 
  .text-description-size {
-     font-size: 12px;
+     font-size: 16px;
  }
 
  .paragraphe-size {
@@ -1133,7 +1133,6 @@
 
  a:focus-visible,
  .btn:focus-visible {
-     transition: all .3s ease-in-out;
      outline: 5px solid red;
 
  }
